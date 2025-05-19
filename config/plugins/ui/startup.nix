@@ -53,7 +53,7 @@
             "fe"
           ]
           [
-            "󰧑 себя"
+            "󰧑 Obsidian"
             "edit ~/Obsidian/SELF"
             "~"
           ]
