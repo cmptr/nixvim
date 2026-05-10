@@ -489,5 +489,17 @@
         desc = "Previous Tab";
       };
     }
+    {
+      mode = "n";
+      key = "<C-d>";
+      action = "<C-d>zz";
+      options.desc = "Half-page down, centered";
+    }
+    {
+      mode = "n";
+      key = "<C-u>";
+      action = "<C-u>zz";
+      options.desc = "Half-page up, centered";
+    }
   ];
 }

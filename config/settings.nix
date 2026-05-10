@@ -92,6 +92,24 @@
       fillchars = {
         eob = " ";
       };
+
+      # Substitution live preview
+      inccommand = "split";
+
+      # Better undo across sessions
+      undofile = true;
+
+      # Smart case-sensitive search
+      ignorecase = true;
+      smartcase = true;
+
+      # Better command-line completion
+      wildmode = "longest:full,full";
+      wildoptions = "pum";
+
+      # Better diff algorithm
+      diffopt = "internal,filler,closeoff,indent-heuristic,algorithm:patience";
+
     };
   };
 }
