@@ -6,6 +6,9 @@ _: {
     ./auto_cmds.nix
     ./file_types.nix
 
+    # pi
+    ./pi.nix
+
     # Themes
     ./plugins/themes
 
