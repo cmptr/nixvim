@@ -214,6 +214,78 @@
       };
     }
     {
+      mode = [
+        "n"
+        "x"
+      ];
+      key = "d";
+      action = "v:register ==# '\"' ? '\"_d' : 'd'";
+      options = {
+        expr = true;
+        desc = "Delete without overwriting clipboard";
+      };
+    }
+    {
+      mode = [
+        "n"
+        "x"
+      ];
+      key = "D";
+      action = "v:register ==# '\"' ? '\"_D' : 'D'";
+      options = {
+        expr = true;
+        desc = "Delete to end of line without overwriting clipboard";
+      };
+    }
+    {
+      mode = [
+        "n"
+        "x"
+      ];
+      key = "c";
+      action = "v:register ==# '\"' ? '\"_c' : 'c'";
+      options = {
+        expr = true;
+        desc = "Change without overwriting clipboard";
+      };
+    }
+    {
+      mode = [
+        "n"
+        "x"
+      ];
+      key = "C";
+      action = "v:register ==# '\"' ? '\"_C' : 'C'";
+      options = {
+        expr = true;
+        desc = "Change to end of line without overwriting clipboard";
+      };
+    }
+    {
+      mode = [
+        "n"
+        "x"
+      ];
+      key = "x";
+      action = "v:register ==# '\"' ? '\"_x' : 'x'";
+      options = {
+        expr = true;
+        desc = "Delete character without overwriting clipboard";
+      };
+    }
+    {
+      mode = [
+        "n"
+        "x"
+      ];
+      key = "X";
+      action = "v:register ==# '\"' ? '\"_X' : 'X'";
+      options = {
+        expr = true;
+        desc = "Delete previous character without overwriting clipboard";
+      };
+    }
+    {
       mode = "n";
       key = "n";
       action = "'Nn'[v:searchforward].'zv'";
